@@ -1,0 +1,57 @@
+$body-text: 'Lato', Helvetica, Arial, sans-serif;
+
+
+// Colors courtesty of Flat UI
+$silver: #BDC3C7;
+$clouds: #ECF0F1;
+$concrete: #95A5A6;
+$asbestos: #7F8C8D;
+$turquoise: #1ABC9C;
+$greensea: #16A085;
+$emerald: #2ECC71;
+$wetasphalt: #34495E;
+$midnightblue: #2C3E50;
+$belizehole: #2980B9;
+$peterriver: #3498DB;
+$amethyst: #9B59B6;
+$wisteria: #8E44AD;
+$carrot: #E67E22;
+$pumpkin: #D35400;
+$alizarin: #E74C3C;
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: $body-text;
+	color: $turquoise;
+	font-weight: 300;
+}
+
+.header {
+	font: {
+		weight: 300;
+		size: 2em;
+	}
+	margin-left: 10px;
+	.light {
+		text-transform: lowercase;
+		font-size: 1em;
+	}
+}
+
+#drudge-links {
+	background-color: $wetasphalt;
+	font-weight: 400;
+	list-style-type: none;
+
+	li {
+		padding-bottom: 5px;
+		margin-bottom: 5px;
+		color: $clouds;
+		border-bottom: solid 1px $midnightblue;
+	}
+}

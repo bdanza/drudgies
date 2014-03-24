@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  color: #1abc9c;
+  font-weight: 300; }
+
+.header {
+  font-weight: 300;
+  font-size: 2em;
+  margin-left: 10px; }
+  .header .light {
+    text-transform: lowercase;
+    font-size: 1em; }
+
+#drudge-links {
+  background-color: #34495e;
+  font-weight: 400;
+  list-style-type: none; }
+  #drudge-links li {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    color: #ecf0f1;
+    border-bottom: solid 1px #2c3e50; }
