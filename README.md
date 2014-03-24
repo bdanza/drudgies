@@ -1,0 +1,1 @@
+welcome to Drudgies, this is a web application that scrapes the drudge report, then saves and categorizes the links for future analysis.
